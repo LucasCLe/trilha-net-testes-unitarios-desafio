@@ -1,5 +1,5 @@
-namespace TestesUnitarios.Desafio.Console.Services
-{
+namespace TestesUnitarios.Desafio.Console.Services;
+
     public class ValidacoesLista
     {
         public List<int> RemoverNumerosNegativos(List<int> lista)
@@ -30,4 +30,3 @@ namespace TestesUnitarios.Desafio.Console.Services
             return lista.Min();
         }
     }
-}
